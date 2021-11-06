@@ -1,4 +1,4 @@
-V2
+V3
 
 инициализация гит
 git init
@@ -29,3 +29,15 @@ git checkout -- file.txt
 
 показать разницу между текущим состоянием и последним коммитом (после "git add")
 git diff --staged
+
+клонировать репозиторий
+git clone https://github.com/FursAndrey/pokazateli.git
+
+создать ветку в репозитории
+git branch -M main
+
+задать ссылку для загрузки в репозиторий
+git remote add origin https://github.com/FursAndrey/git.git
+
+собственно загрузка
+git push -u origin main
