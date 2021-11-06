@@ -41,7 +41,6 @@ git remote add origin https://github.com/FursAndrey/git.git
 
 собственно загрузка
 git push -u origin main
-git push origin
 
 ------------------ветки в репозитории-------------------------------------------
 показать все ветки
@@ -66,4 +65,8 @@ git checkout -b my_new_branch
 git merge my_new_branch
 
 ------------------возврат к предыдущей версии-------------------------------------------
+возврат к предыдущей версии
 git reset --hard HEAD~
+
+возврат к предыдущей версии не меняя фалы
+git reset --soft HEAD~
