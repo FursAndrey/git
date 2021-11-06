@@ -1,4 +1,4 @@
-V3
+V4
 
 инициализация гит
 git init
@@ -64,3 +64,6 @@ git checkout -b my_new_branch
 
 соединить ветку my_new_branch с МАСТЕР-веткой
 git merge my_new_branch
+
+------------------возврат к предыдущей версии-------------------------------------------
+git reset --hard HEAD~
