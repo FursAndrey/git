@@ -52,6 +52,9 @@ git branch my_new_branch
 перейти в другую ветку (ранее созданную)
 git checkout my_new_branch
 
+возврат к одному из ранних коммитов
+git checkout [хеш-сумма нужного коммита]
+
 стереть ветку
 git branch -d my_new_branch
 
