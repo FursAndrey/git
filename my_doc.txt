@@ -1,4 +1,4 @@
-V7
+V8
 
 инициализация гит
 git init
@@ -42,6 +42,8 @@ git remote add origin https://github.com/FursAndrey/git.git
 собственно загрузка
 git push -u origin main
 
+забрать из репозитория последние изменения
+git pull origin main
 ------------------ветки в репозитории-------------------------------------------
 показать все ветки
 git branch
